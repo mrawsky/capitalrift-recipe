@@ -22,7 +22,7 @@ Paste a restaurant `chunkId`, such as `15/18295/10789`, and the tool will:
 - explain every axis error behind the result;
 - let you edit a custom 2–8 ingredient recipe and rescore it live.
 
-Everything runs locally in your browser. There is no account, game login, database, analytics dependency, or external recipe API involved in the calculation.
+All recipe calculations run locally in your browser, with no account, game login, database, or external recipe API involved. The production site uses Vercel Web Analytics and Speed Insights to measure visits and performance.
 
 ## Why the location ID matters
 

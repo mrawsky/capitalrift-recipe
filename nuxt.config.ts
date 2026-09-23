@@ -6,7 +6,11 @@ const productionSiteUrl = (
 ).replace(/\/$/, '')
 
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/sitemap'],
+  modules: [
+    '@nuxtjs/sitemap',
+    '@vercel/analytics',
+    '@vercel/speed-insights',
+  ],
   css: ['~/assets/css/main.css'],
   devtools: { enabled: false },
   compatibilityDate: '2026-09-22',
